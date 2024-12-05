@@ -1,0 +1,9 @@
+syntax = "proto3";
+package make87_messages.primitive;
+
+import "google/protobuf/timestamp.proto";
+
+message SFixed32 {
+    google.protobuf.Timestamp timestamp = 1;
+    sfixed32 value = 2;
+}

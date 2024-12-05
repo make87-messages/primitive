@@ -1,7 +1,4 @@
-# Template Repository for make87 Message Types
+# Primitives for make87 Message Types
 
-Use this repository as a template for creating your own new make87 message types.
-
-## Getting Started
-
-The first step is defining your own message types. A repository can contain multiple message types, and nested directories for better organization.
+This directory contain simple message types for every available primitve type.
+You can use this to send bools for success confirmation or floats for numeric updates.
